@@ -62,6 +62,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		098CB8C62C3B030A00E9D6D9 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				09D674BD2C3ADE280069E587 /* RemoteConfigManager.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		098CB8C82C3B037800E9D6D9 /* Character */ = {
+			isa = PBXGroup;
+			children = (
+				09D674A12C3AA7A70069E587 /* CharactersView.swift */,
+				09D674AD2C3AADBC0069E587 /* CharacterDetailView.swift */,
+				09D674B22C3AD4960069E587 /* CharacterCell.swift */,
+			);
+			path = Character;
+			sourceTree = "<group>";
+		};
 		09D674802C3AA49D0069E587 = {
 			isa = PBXGroup;
 			children = (
@@ -82,7 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				09C3CC0D2C3AECA9009AECFF /* GoogleService-Info.plist */,
-				09D674C12C3AEA4E0069E587 /* Network */,
+				098CB8C62C3B030A00E9D6D9 /* Network */,
 				09D6749A2C3AA5970069E587 /* Models */,
 				09D6749B2C3AA5A60069E587 /* Views */,
 				09D6749C2C3AA5B70069E587 /* ViewModels */,
@@ -112,8 +130,8 @@
 		09D6749B2C3AA5A60069E587 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				098CB8C82C3B037800E9D6D9 /* Character */,
 				09D674B42C3AD6F30069E587 /* UpdateView.swift */,
-				09D674B12C3AD46D0069E587 /* Characters */,
 				09D674A52C3AA7DF0069E587 /* LocationsView.swift */,
 				09D674A72C3AA7F10069E587 /* EpisodesView.swift */,
 				09D674A92C3AA8080069E587 /* SettingsView.swift */,
@@ -130,24 +148,6 @@
 				09D674AF2C3ABD400069E587 /* CharacterDetailViewModel.swift */,
 			);
 			path = ViewModels;
-			sourceTree = "<group>";
-		};
-		09D674B12C3AD46D0069E587 /* Characters */ = {
-			isa = PBXGroup;
-			children = (
-				09D674A12C3AA7A70069E587 /* CharactersView.swift */,
-				09D674AD2C3AADBC0069E587 /* CharacterDetailView.swift */,
-				09D674B22C3AD4960069E587 /* CharacterCell.swift */,
-			);
-			name = Characters;
-			sourceTree = "<group>";
-		};
-		09D674C12C3AEA4E0069E587 /* Network */ = {
-			isa = PBXGroup;
-			children = (
-				09D674BD2C3ADE280069E587 /* RemoteConfigManager.swift */,
-			);
-			name = Network;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
