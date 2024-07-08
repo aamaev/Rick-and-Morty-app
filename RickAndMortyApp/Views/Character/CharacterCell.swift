@@ -25,8 +25,8 @@ struct CharacterCell: View {
             
             Text(character.name)
                 .font(.system(size: 20).bold())
-                .foregroundColor(.primary)
                 .lineLimit(1)
+                .foregroundColor(Color(.label))
                 .padding(.leading, 7)
             
             Text("Status: \(character.status)")
@@ -40,8 +40,8 @@ struct CharacterCell: View {
         .frame(width: 180, height: 270)
         .background(
             RoundedRectangle(cornerRadius: 2)
-                .fill(.white)
-                .shadow(color: Color.black.opacity(0.2), radius: 2, x: -4, y: 4)
+                .fill(Color(.systemBackground))
+                .shadow(color: Color.black.opacity(0.3), radius: 3, x: -4, y: 4)
         )
     }
 }
